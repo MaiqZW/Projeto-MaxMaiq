@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaxMaiq</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="logo-container">
+        <img class="logo" src="images/MaxMaiqLogo.png" alt="" />
+        <h2 class="text-nav">MaxMaiq</h2>
+      </div>
+      <div class="links-container">
+        <div class="container-bar">
+          <a href="">Entrar</a>
+          <a href="">Registrar</a>
+        </div>
+      </div>
+    </section>
+    <div class="slogan">
+      <img class="slogan-image" src="images/MaxMaiqLogo.png" alt="" />
+      <h1><b class="h1">MaxMaiq</b></h1>
+      <h2>Sua entrada para uma Maratona de Diversão!</h2>
+      <div class="bottom-border"></div>
+    </div>
+    <section class="content-section">
+      <div class="content-column">
+        <p class="content-text">
+          Descubra um Universo de Entretenimento Sem Limites: Ao assinar o
+          MaxMaiq, você desbloqueia uma extensa coleção de filmes, séries,
+          documentários, e-books e muito mais. Deixe-se cativar por narrativas
+          envolventes e encontre novos favoritos sempre que desejar explorar.
+        </p>
+      </div>
+      <div class="content-column">
+        <img
+          class="width-100 content-image"
+          src="images/MaxMaiq_Explore.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="content-column">
+        <img
+          class="width-100 content-image"
+          src="images/MaxMaiq_Couple.jpg"
+          alt=""
+        />
+      </div>
+      <div class="content-column">
+        <p class="content-text">
+          Vivêncie o seu entretenimento a qualquer momento e em qualquer lugar:
+          Com o MaxMaiq, você está no comando. Desfrute do seu conteúdo
+          preferido onde e quando quiser, seja relaxando em casa, durante uma
+          viagem ou nos momentos de pausa do seu dia a dia. Liberte-se para se
+          divertir sem restrições!
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="content-column">
+        <p class="content-text">
+          Atualizações Constantes e Novidades Exclusivas: Nossa biblioteca de
+          conteúdo está em constante expansão, com novos lançamentos adicionados
+          regularmente. Além disso, oferecemos acesso exclusivo a produções
+          originais que você só encontra no MaxMaiq. Não perca as últimas
+          tendências e os melhores conteúdos!
+        </p>
+      </div>
+      <div class="content-column">
+        <img
+          class="width-100 content-image"
+          src="images/MaxMaiq_Update.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="content-column">
+        <img
+          class="width-100 content-image"
+          src="images/MaxMaiq_Support.jpg"
+          alt=""
+        />
+      </div>
+      <div class="content-column">
+        <p class="content-text">
+          Nosso Compromisso com a sua Satisfação: Estamos sempre ao seu lado
+          para garantir que sua jornada conosco seja impecável. Com uma equipe
+          dedicada pronta para ajudar, qualquer questão ou dificuldade que
+          surgir será tratada prontamente, permitindo que você desfrute do nosso
+          conteúdo com total tranquilidade.
+        </p>
+      </div>
+    </section>
+    <div class="buy">
+      <a class="buy-button" href="">Assine Agora !</a>
+    </div>
+
+    <div class="movies-lib" id="movie-catalog">
+      <!--LISTAGEM DE FILMES PELO JAVASCRIPT-->
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <iframe
+          id="youtube-video"
+          width="560"
+          height="315"
+          src=""
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <ul class="info">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Suporte</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="#">Conta</a></li>
+      </ul>
+      <div class="bottom-border footer-border"></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
